@@ -6,6 +6,7 @@ body {
     background-color: #fff;
     width: 100%;
     font-family: 'IBM-Plex-Sans', serif;
+    margin-left: 0;
 }
 
 .border-test {
@@ -17,6 +18,7 @@ body {
     height: 100vh;    
 }
 
+/*
 .home-background {
     top: 0;
     position: absolute;
@@ -24,7 +26,6 @@ body {
     width: 100%;   
     z-index: -2;
 }
-
 
 .darken-background {
     position: absolute;
@@ -45,12 +46,12 @@ body {
     flex-direction: row;
     justify-content: flex-end;    
     position: fixed;    
-    padding: 20px 0;
-    z-index: 10;
+    padding: 10px 0;    
+    /*background-color: #333;*/
 }
 
 .navbar .nav-menu {
-    width:40vw;
+    width: 40vw;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;    
@@ -60,12 +61,17 @@ body {
 .navbar .nav-menu li {
     list-style: none;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .navbar .nav-menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #000 ;
+    font-size: 20px;   
+}
+
+.navbar .nav-menu li a:hover{
+    color: #;
 }
 
 /* Home - content */
@@ -74,7 +80,6 @@ body {
     width: 60%;
     height: 97vh;
     margin-left: auto;
-
     margin-right: auto;
     padding: 20px;
     display: flex;
@@ -83,6 +88,7 @@ body {
     align-items: center;
     color: #fff;
     text-align: center;
+    visibility: hidden;
 }
 
 .content .bio h1 {
